@@ -8,7 +8,7 @@ const NewsItem = (props) => {
         <img
           src={
             !imgUrl
-              ? "https:techcrunch.com/wp-content/uploads/2020/05/NSussman_Techcrunch_Exchange_v3-ORNG.jpg?resize=1200,900"
+              ? "https://techcrunch.com/wp-content/uploads/2020/05/NSussman_Techcrunch_Exchange_v3-ORNG.jpg?resize=1200,900"
               : imgUrl
           }
           className="card-img-top"

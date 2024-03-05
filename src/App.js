@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import LoadingBar from "react-top-loading-bar";
 
 const App = () => {
-  const pageSize = 5;
+  const pageSize = 7;
   const apiKey = process.env.REACT_APP_NEWS_API;
   const [progress, setProgress] = useState(0);
 
@@ -23,7 +23,7 @@ const App = () => {
               apiKey={apiKey}
               key="general"
               pageSize={pageSize}
-              country="in"
+              country="us"
               category="general"
             />
           </Route>
@@ -33,7 +33,7 @@ const App = () => {
               apiKey={apiKey}
               key="business"
               pageSize={pageSize}
-              country="in"
+              country="us"
               category="business"
             />
           </Route>
@@ -43,7 +43,7 @@ const App = () => {
               apiKey={apiKey}
               key="entertainment"
               pageSize={pageSize}
-              country="in"
+              country="us"
               category="entertainment"
             />
           </Route>
@@ -53,7 +53,7 @@ const App = () => {
               apiKey={apiKey}
               key="general"
               pageSize={pageSize}
-              country="in"
+              country="us"
               category="general"
             />
           </Route>
@@ -63,7 +63,7 @@ const App = () => {
               apiKey={apiKey}
               key="health"
               pageSize={pageSize}
-              country="in"
+              country="us"
               category="health"
             />
           </Route>
@@ -73,7 +73,7 @@ const App = () => {
               apiKey={apiKey}
               key="science"
               pageSize={pageSize}
-              country="in"
+              country="us"
               category="science"
             />
           </Route>
@@ -83,7 +83,7 @@ const App = () => {
               apiKey={apiKey}
               key="sports"
               pageSize={pageSize}
-              country="in"
+              country="us"
               category="sports"
             />
           </Route>
@@ -93,7 +93,7 @@ const App = () => {
               apiKey={apiKey}
               key="technology"
               pageSize={pageSize}
-              country="in"
+              country="us"
               category="technology"
             />
           </Route>
